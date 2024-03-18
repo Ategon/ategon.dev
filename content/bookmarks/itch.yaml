@@ -1,0 +1,9 @@
+name: Itch.io
+date: 2024-03-18
+slug: itch
+url: https://itch.io/
+image: /images/itch.png
+tags:
+  - Gamedev
+description: |
+  Itch.io is a game hosting platform that allows you to host games for free.

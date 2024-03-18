@@ -1,0 +1,10 @@
+name: Iceshrimp
+date: 2024-03-16
+url: https://iceshrimp.dev/
+slug: iceshrimp
+image: /images/iceshrimp.png
+tags:
+  - Self-hosting
+  - Fediverse
+description: |
+  Iceshrimp is a microblog supporting the activitypub protocol. I help run a site using it that I use to post microblog posts.

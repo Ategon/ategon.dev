@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title
+      block title
+    link(rel='stylesheet', href='/css/style.css')
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    script(src='/js/main.js')
+  body#content
+    include partials/sidebar.pug
+    div#supmain
+      .contlayside
+        include partials/second-sidebar.pug
+      div#supsubmain.contlaycont
+        header#page-header
+          .back-button
+            include icons/arrow-left.pug
+          block second-header
+        main#main
+          block content

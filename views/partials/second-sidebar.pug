@@ -1,0 +1,25 @@
+nav.sidebar.second-sidebar
+  header#page-header
+    button.hamburger-menu
+      span
+      span
+      span
+    block header
+  for option in options
+    if option.slug
+      div.sidebar-option
+        a(href=`/${type}/${option.slug}`)
+          image(src=option.image, alt=`${option.name}'s icon`, width=16, height=16)
+          div
+            p #{option.name}
+            p=option.url
+    else 
+      div.sidebar-option
+        a(href=option.url).spread
+          div.suboption
+            image(src=option.image, alt=`${option.name}'s icon`, width=16, height=16)
+            div
+              p #{option.name}
+              p=option.url
+          include ../icons/external-link.pug
+.sidebar-padding.second-sidebar-padding

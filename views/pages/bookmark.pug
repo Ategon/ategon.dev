@@ -1,0 +1,18 @@
+extends ../double-side-content-layout
+
+block title
+  | #{bookmark.name} - Bookmark
+
+block header
+  | Bookmarks
+
+block second-header
+  | #{bookmark.name}
+
+block content
+  h1 
+    img(src=bookmark.image width='16' height='16' alt='Bookmark icon')
+    | #{bookmark.name}
+  p 
+    a(href=bookmark.url) #{bookmark.url}
+  p #{bookmark.description}

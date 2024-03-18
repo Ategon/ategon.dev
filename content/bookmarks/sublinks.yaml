@@ -1,0 +1,10 @@
+name: Sublinks
+date: 2024-03-17
+slug: sublinks
+url: https://sublinks.org/
+image: /images/sublinks.png
+tags:
+  - Self-hosting
+  - Fediverse
+description: |
+  Sublinks is a forum and link aggregator supporting the activitypub protocol. I help out with it including things like designing the frontend.

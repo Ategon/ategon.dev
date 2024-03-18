@@ -1,0 +1,30 @@
+extends ../layout
+
+block title
+  | Queue
+
+block header
+  | Queue
+
+block content
+  h1 📃 Queue
+  p The queue of things I'm working on
+  for item in options
+    .queue-item
+      .queue-item-main
+        h2=item.name
+        p(class=`${item.priority} item-priority`) #{item.priority}
+        p(class=`${item.size} item-priority`) #{item.size}
+      p=item.description
+      if item.tasks
+        for task in item.tasks
+          .task
+            if task.completed
+              p ☑️
+            else
+              p ⬛
+            p=task.name
+      .progress-back
+        .progress-bar(style=`width: ${item.progress}%`)
+          p #{item.progress}%
+  

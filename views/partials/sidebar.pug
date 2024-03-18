@@ -1,0 +1,53 @@
+nav.sidebar.first-sidebar
+  .brand
+    a(href='/')
+      image(src='/images/avatar.png', alt='Avatar', id='avatar' width='100' height='100')
+  ul.sidebar-options
+    li.sidebar-option
+      a(href='/' class=path === '/' ? 'active' : '')
+        include ../icons/home.pug
+        p Home
+    li.sidebar-option
+      a(href='/about' class=path === '/about' ? 'active' : '')
+        include ../icons/person.pug
+        p Me
+    //li.sidebar-option
+      a(href='/blog' class=path === '/blog' ? 'active' : '')
+        include ../icons/marked-book.pug
+        p Blog
+    li.sidebar-option
+      a(href='/queue' class=path === '/queue' ? 'active' : '')
+        include ../icons/list-ordered.pug
+        p Queue
+    li.sidebar-option
+      a(href='/socials' class=path === '/socials' ? 'active' : '')
+        include ../icons/link.pug
+        p Socials
+  //header.sidebar-header
+    h2 Projects
+  //ul.sidebar-options
+    li.sidebar-option
+      a(href='/games')
+        include ../icons/game.pug
+        p Games
+    li.sidebar-option
+      a(href='/fediverse')
+        include ../icons/globe.pug
+        p Fediverse
+    li.sidebar-option
+      a(href='/other')
+        include ../icons/scan.pug
+        p Other
+  header.sidebar-header
+    h2 Collections
+  ul.sidebar-options
+    li.sidebar-option
+      a(href='/bookmarks')
+        include ../icons/bookmark.pug
+        p Bookmarks
+    //li.sidebar-option
+      a(href='/webrings')
+        include ../icons/dashed-circle.pug
+        p Webrings
+.sidebar-padding.first-sidebar-padding
+.overlay

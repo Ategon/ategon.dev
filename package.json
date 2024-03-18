@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.3",
+    "feed": "^4.2.2",
+    "js-yaml": "^4.1.0",
+    "pug": "^3.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
