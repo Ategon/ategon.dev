@@ -7,7 +7,7 @@ import fs from 'fs';
 const app = express();
 const port = 3010;
 
-const games = ["brackeys11"]
+const games = ["brackeys11", "ld55"]
 
 // Set the view engine to pug
 app.set("view engine", "pug");
