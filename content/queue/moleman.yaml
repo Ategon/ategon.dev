@@ -2,14 +2,12 @@ name: Moleman Mod Update
 progress: 0
 size: Large
 priority: High
-description: |
-  Update the Moleman mod to the new version of the game and fix issues.
+description: >
+  Update the Moleman mod to the new version of the game.
+
 tasks:
-  - name: Update to new version
+  - name: Remake mod
     completed: false
+
   - name: Separate out Music
-    completed: false
-  - name: Plan out tasks
-    completed: false
-  - name: To be determined....
     completed: false

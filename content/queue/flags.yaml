@@ -1,0 +1,40 @@
+name: New Edikoyo Flags
+progress: 27
+size: Medium
+priority: Medium
+description: >
+  Create flags for all new edikoyo countries.
+
+tasks:
+  - name: Draith
+    completed: false
+
+  - name: Enoko
+    completed: false
+
+  - name: Kotera
+    completed: false
+
+  - name: Mino
+    completed: true
+
+  - name: Piko
+    completed: false
+
+  - name: Skarnam
+    completed: false
+
+  - name: Tymbar
+    completed: false
+
+  - name: Ulvera
+    completed: false
+
+  - name: Veva
+    completed: true
+
+  - name: Zanoko
+    completed: false
+
+  - name: Zenstel
+    completed: true
