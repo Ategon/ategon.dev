@@ -3,16 +3,60 @@ extends ../layout
 block title
   | Home Page
 
-block header
-  | Home Page
-
 block content
-  h1 🍁 Ategon
-  p Canadian indie game developer
-  p Welcome to my site! Here you can find anything relating to what I do on the internet including projects I work on, blog posts I write, sites I find interesting, my social medias, etc.
-  .small-spacer
-  p I stream every Monday Wednesday and Friday on my Twitch, participate in game jams such as Ludum Dare, Brackeys, and GMTK, help out with constructing a forum and link aggregator called Sublinks, and work on a larger game mostly solo called Vuladune.
-  .spacer
-  figure
-    img(src="/images/ottawa.jpg", alt="An image of Parliament Hill in Ottawa, Canada.")
-    figcaption Parliament Hill in Ottawa, Canada
+  button#share()
+    img(src="/images/share-2.svg" alt="Share icon")
+    p Share
+  .home-bg
+    iframe.home-bg__video(
+      src="https://www.youtube.com/embed/LvvC6unM0Kg?autoplay=1&mute=1&controls=0&loop=1&playlist=LvvC6unM0Kg"
+      allow="autoplay"
+      allowfullscreen
+      title="Background video"
+    )
+    img.home-bg__thumb(
+      src="https://img.youtube.com/vi/LvvC6unM0Kg/maxresdefault.jpg"
+      alt="Background still frame"
+    )
+    .home-bg__overlay
+  main
+    .user
+      img.pfp(src="/images/ategon.png", alt="A drawing of someone listening to music")
+      h1 Ategon
+      p 🇨🇦 Indie Game Developer
+    .socials
+      a.social(href="https://twitch.tv/ategondev" target="_blank" rel="noopener noreferrer" aria-label="Twitch Channel")
+        img(src="/images/socials/twitch.svg" alt="Twitch Channel")
+      a.social(href="https://bytes.programming.dev/@Ategon" target="_blank" rel="noopener noreferrer" aria-label="Fediverse Microblog")
+        img(src="/images/socials/mastodon.svg" alt="Fediverse Microblog")
+      a.social(href="https://bsky.app/profile/ategon.dev" target="_blank" rel="noopener noreferrer" aria-label="Bluesky Profile")
+        img(src="/images/socials/bluesky.svg" alt="Bluesky Profile")
+      a.social(href="https://discord.gg/EeqgYytyJ8" target="_blank" rel="noopener noreferrer" aria-label="Discord Server")
+        img(src="/images/socials/discord.svg" alt="Discord Server")
+      a.social(href="https://ategon.newgrounds.com/" target="_blank" rel="noopener noreferrer" aria-label="Newgrounds Page")
+        img(src="/images/socials/newgrounds.svg" alt="Newgrounds Page")
+      p /
+      a.social(href="https://youtube.com/@Ategondev" target="_blank" rel="noopener noreferrer" aria-label="Development YouTube")
+        img(src="/images/socials/youtube.svg" alt="Development Youtube")
+      a.social(href="https://ategon.itch.io/" target="_blank" rel="noopener noreferrer" aria-label="Itch.io Page")
+        img(src="/images/socials/itchdotio.svg" alt="Itch.io Page")
+      //- a.social(href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile")
+      //-   img(src="/images/socials/tiktok.svg" alt="Discord Server")
+      a.social(href="https://github.com/Ategon" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile")
+        img(src="/images/socials/github.svg" alt="GitHub Profile")
+      a.social(href="https://git.edikoyo.com/ategon" target="_blank" rel="noopener noreferrer" aria-label="Forgejo Profile")
+        img(src="/images/socials/forgejo.svg" alt="Forgejo Profile")
+      p /
+      a.social(href="https://youtube.com/@AtegonTV" target="_blank" rel="noopener noreferrer" aria-label="Gaming YouTube")
+        img(src="/images/socials/youtubegaming.svg" alt="Discord Server")
+      //- a.social(href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile")
+      //-   img(src="/images/socials/tiktok.svg" alt="Discord Server")
+      //- a.social(href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile")
+      //-   img(src="/images/socials/instagram.svg" alt="Discord Server")
+      p /
+      //- a.social(href="" target="_blank" rel="noopener noreferrer" aria-label="Music YouTube")
+      //-   img(src="/images/socials/soundcloud.svg" alt="Discord Server")
+      a.social(href="https://ategon.bandcamp.com/" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp Page")
+        img(src="/images/socials/bandcamp.svg" alt="Bandcamp Page")
+      a.social(href="https://youtube.com/@Ategon" target="_blank" rel="noopener noreferrer" aria-label="Music YouTube")
+        img(src="/images/socials/youtubemusic.svg" alt="Music Youtube")
