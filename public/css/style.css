@@ -188,6 +188,7 @@ main {
   user-select: none;
   pointer-events: none;
   z-index: 1;
+  display: none;
 }
 
 .home-bg__overlay {
@@ -214,6 +215,7 @@ main {
   .home-bg__video {
     display: none;
   }
+
   .home-bg__thumb {
     display: block;
   }
