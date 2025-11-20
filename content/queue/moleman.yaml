@@ -1,7 +1,7 @@
 name: Moleman Mod Update
 progress: 0
 size: Large
-priority: High
+priority: Medium
 description: >
   Update the Moleman mod to the new version of the game.
 

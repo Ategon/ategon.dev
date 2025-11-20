@@ -1,0 +1,6 @@
+name: Slime Bot
+progress: 0
+size: Medium
+priority: High
+description: >
+  Convert the slime overlay to instead be a 24/7 running bot so that it can be used more easily on other channels (and doesnt have to be restarted)

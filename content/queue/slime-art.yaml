@@ -1,0 +1,598 @@
+name: New Slime Art
+progress: 5.1
+size: Giant
+priority: Medium
+description: >
+  Add all needed slime art to the stream slime catching system
+
+tasks:
+  - name: Garden
+    completed: true
+
+  - name: Marsh
+    completed: true
+
+  - name: Bark
+    completed: true
+
+  - name: Moss
+    completed: true
+
+  - name: Canopy
+    completed: false
+
+  - name: Loam
+    completed: false
+
+  - name: Lagoon
+    completed: false
+
+  - name: Foam
+    completed: false
+
+  - name: Coral
+    completed: true
+
+  - name: Mud
+    completed: true
+
+  - name: Quartz
+    completed: true
+
+  - name: Amanita
+    completed: false
+
+  - name: Cactus
+    completed: false
+
+  - name: Brick
+    completed: false
+
+  - name: Wisp
+    completed: false
+
+  - name: Cave
+    completed: false
+
+  - name: Sunflower
+    completed: false
+
+  - name: Honey
+    completed: true
+
+  - name: Seaweed
+    completed: false
+
+  - name: Kudzu
+    completed: false
+
+  - name: Ivy
+    completed: false
+
+  - name: Chili
+    completed: false
+
+  - name: Cloud
+    completed: false
+
+  - name: Zen
+    completed: false
+
+  - name: Sand
+    completed: false
+
+  - name: Snail
+    completed: false
+
+  - name: Charcoal
+    completed: false
+
+  - name: Snowflake
+    completed: false
+
+  - name: Hermit
+    completed: false
+
+  - name: Magnetic
+    completed: false
+
+  - name: Sulphur
+    completed: false
+
+  - name: Mint
+    completed: false
+
+  - name: Basalt
+    completed: false
+
+  - name: Algae
+    completed: false
+
+  - name: Lilypad
+    completed: false
+
+  - name: Silver
+    completed: false
+
+  - name: Leaf
+    completed: false
+
+  - name: Chalk
+    completed: false
+
+  - name: Lava
+    completed: false
+
+  - name: Watermelon
+    completed: false
+
+  - name: Tuna
+    completed: false
+
+  - name: Lightning
+    completed: false
+
+  - name: Clamshell
+    completed: false
+
+  - name: Water
+    completed: false
+
+  - name: Cubic
+    completed: false
+
+  - name: Tundra
+    completed: false
+
+  - name: Rice
+    completed: false
+
+  - name: Cereal
+    completed: false
+
+  - name: Salmon
+    completed: false
+
+  - name: Banana
+    completed: false
+
+  - name: Love
+    completed: false
+
+  - name: Acorn
+    completed: false
+
+  - name: Shark
+    completed: false
+
+  - name: Vapour
+    completed: false
+
+  - name: Upward
+    completed: false
+
+  - name: Clover
+    completed: false
+
+  - name: Peach
+    completed: false
+
+  - name: Ababa
+    completed: true
+
+  - name: Pixie
+    completed: false
+
+  - name: Bouncy
+    completed: false
+
+  - name: Breeze
+    completed: false
+
+  - name: Six
+    completed: false
+
+  - name: Bean
+    completed: false
+
+  - name: Holy
+    completed: false
+
+  - name: Citrus
+    completed: false
+
+  - name: Crab
+    completed: false
+
+  - name: Tomato
+    completed: false
+
+  - name: Dandelion
+    completed: false
+
+  - name: Hairy
+    completed: false
+
+  - name: Coffee
+    completed: false
+
+  - name: Copper
+    completed: false
+
+  - name: Onion
+    completed: false
+
+  - name: Bear
+    completed: false
+
+  - name: Pumpkin
+    completed: false
+
+  - name: Fly
+    completed: false
+
+  - name: Firefly
+    completed: false
+
+  - name: Cow
+    completed: false
+
+  - name: Dog
+    completed: false
+
+  - name: Husky
+    completed: false
+
+  - name: Tabby
+    completed: false
+
+  - name: Bunny
+    completed: false
+
+  - name: Panda
+    completed: false
+
+  - name: Seal
+    completed: false
+
+  - name: Pineapple
+    completed: false
+
+  - name: Baa Salt
+    completed: false
+
+  - name: Cucumber
+    completed: false
+
+  - name: Crocodile
+    completed: false
+
+  - name: Salt
+    completed: false
+
+  - name: Brine
+    completed: false
+
+  - name: Dune
+    completed: false
+
+  - name: Bass Salt
+    completed: false
+
+  - name: Bassalt
+    completed: false
+
+  - name: Blast Salt
+    completed: false
+
+  - name: Bark Salt
+    completed: false
+
+  - name: Brass Salt
+    completed: false
+
+  - name: Baa Nana
+    completed: false
+
+  - name: Froggy
+    completed: false
+
+  - name: Bat
+    completed: false
+
+  - name: Mouse
+    completed: false
+
+  - name: Rat
+    completed: false
+
+  - name: Puff
+    completed: false
+
+  - name: Earth
+    completed: false
+
+  - name: Frost
+    completed: false
+
+  - name: Bog
+    completed: false
+
+  - name: Juice
+    completed: false
+
+  - name: Hive
+    completed: false
+
+  - name: Buzzy
+    completed: false
+
+  - name: Rock Salt
+    completed: false
+
+  - name: Oat
+    completed: false
+
+  - name: Tusk
+    completed: false
+
+  - name: Horned
+    completed: false
+
+  - name: Oat Moss
+    completed: false
+
+  - name: Sunbeam
+    completed: false
+
+  - name: Bramble
+    completed: false
+
+  - name: Arboreal
+    completed: false
+
+  - name: Groveheart
+    completed: false
+
+  - name: Verdant
+    completed: false
+
+  - name: Fern
+    completed: false
+
+  - name: Marine
+    completed: false
+
+  - name: Fortress
+    completed: false
+
+  - name: Pop
+    completed: false
+
+  - name: Blade
+    completed: false
+
+  - name: Trapper
+    completed: false
+
+  - name: Godot
+    completed: true
+
+  - name: Cat
+    completed: false
+
+  - name: Trout
+    completed: false
+
+  - name: Tea
+    completed: false
+
+  - name: Makona
+    completed: false
+
+  - name: Dedia
+    completed: false
+
+  - name: Sushi
+    completed: false
+
+  - name: Milk
+    completed: false
+
+  - name: Navi
+    completed: false
+
+  - name: Ghost
+    completed: false
+
+  - name: Gargoyle
+    completed: false
+
+  - name: Box
+    completed: false
+
+  - name: Feral
+    completed: false
+
+  - name: Draco
+    completed: false
+
+  - name: Fossil
+    completed: false
+
+  - name: Ramen
+    completed: false
+
+  - name: Fuzzy
+    completed: false
+
+  - name: Wig
+    completed: false
+
+  - name: Sunbear
+    completed: false
+
+  - name: Polar
+    completed: false
+
+  - name: Artillery
+    completed: false
+
+  - name: Salt Bass
+    completed: false
+
+  - name: Saltine
+    completed: false
+
+  - name: Runestone
+    completed: false
+
+  - name: Seer
+    completed: false
+
+  - name: Factory
+    completed: false
+
+  - name: Bath Salt
+    completed: false
+
+  - name: Business
+    completed: false
+
+  - name: Carriage
+    completed: false
+
+  - name: 404
+    completed: false
+
+  - name: Pollen
+    completed: false
+
+  - name: Swarm
+    completed: false
+
+  - name: Frosthorn
+    completed: false
+
+  - name: Arcane
+    completed: false
+
+  - name: Miremaw
+    completed: false
+
+  - name: Abyssal
+    completed: false
+
+  - name: Spooky
+    completed: false
+
+  - name: Balm
+    completed: false
+
+  - name: Bomb
+    completed: false
+
+  - name: Meat
+    completed: false
+
+  - name: Titanic
+    completed: false
+
+  - name: Mime
+    completed: false
+
+  - name: Hollow
+    completed: false
+
+  - name: Googly
+    completed: false
+
+  - name: Gon
+    completed: false
+
+  - name: Celestial
+    completed: false
+
+  - name: Spectral
+    completed: false
+
+  - name: Crystal
+    completed: false
+
+  - name: Dapper
+    completed: false
+
+  - name: Rattle
+    completed: false
+
+  - name: Tinker
+    completed: false
+
+  - name: Memory
+    completed: false
+
+  - name: Train
+    completed: false
+
+  - name: Godotstein
+    completed: false
+
+  - name: Booty
+    completed: false
+
+  - name: Squirrel
+    completed: false
+
+  - name: Alchemical
+    completed: false
+
+  - name: Hearth
+    completed: false
+
+  - name: Duality
+    completed: false
+
+  - name: Particle
+    completed: false
+
+  - name: Queen
+    completed: false
+
+  - name: Goyao
+    completed: false
+
+  - name: Babu
+    completed: false
+
+  - name: Orion
+    completed: false
+
+  - name: Raine
+    completed: false
+
+  - name: Pandora
+    completed: false
+
+  - name: Francis
+    completed: false
+
+  - name: Slimon
+    completed: false
+
+  - name: Mimic
+    completed: false
+
+  - name: Echo
+    completed: false
+
+  - name: Basilisk
+    completed: false
+
+  - name: Oats
+    completed: false
+
+  - name: Pomo
+    completed: false
+
+  - name: Gamedle
+    completed: false

@@ -1,0 +1,6 @@
+name: Raid Slime Packs
+progress: 0
+size: Medium
+priority: Medium
+description: >
+  Automatically spawning a free slime pack a minute after a raid occurs
