@@ -1,10 +1,47 @@
 doctype html
 html
   head
-    title
-      block title
-    link(rel='stylesheet', href='/css/style.css')
+    block title
+      title Ategon
+
+    block metaDescription
+      meta(name="description", content="Canadian indie game developer, streamer & composer.")
+      meta(property="og:title", content="Ategon")
+      meta(property="og:description", content="Canadian indie game developer, streamer & composer.")
+      meta(property="og:url", content="https://ategon.dev/")
+      meta(property="og:type", content="website")
+      meta(name="twitter:card", content="summary")
+      meta(name="twitter:title", content="Ategon")
+      meta(name="twitter:description", content="Canadian indie game developer, streamer & composer.")
+
+    meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Canadian indie game developer, streamer & composer.")
+    meta(name="author", content="Ategon")
+    meta(name="keywords", content="Ategon, indie game developer, gamedev portfolio, canadian indie dev, game programming, game art, game music composer, twitch gamedev streams, youtube gamedev")
+
+    link(rel="icon" href="/favicon.ico" type="image/x-icon")
+    link(rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png")
+    link(rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png")
+    link(rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png")
+    link(rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png")
+
+    link(rel="preload" href="/css/style.css" as="style")
+    link(rel="stylesheet", href="/css/style.css")
+
+    link(rel="preconnect" href="https://www.youtube.com")
+    link(rel="preconnect" href="https://i.ytimg.com")
+
+    link(
+      rel="preload"
+      as="image"
+      href="https://img.youtube.com/vi/KaFI22Duke0/maxresdefault.jpg"
+    )
+
+    meta(name="theme-color" content="#0f1418")
+    link(rel="canonical" href="https://ategon.dev")
+    
     script(src='/js/main.js')
   body
     block content
